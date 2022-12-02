@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit-msg": "node ./id-to-commit-msg.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/max-greive-latori/husky-test#readme",
   "devDependencies": {
-    "husky": "^8.0.2"
+    "husky": "^8.0.2",
+    "fs": "0.0.1-security"
   }
 }
